@@ -20,7 +20,7 @@ def alarm():
         print(current_time, set_alarm_time)
         if current_time == set_alarm_time:
             print("Time to Wake Up")
-            playsound("D:\\All Pro Data\\Python Intern\\Alarm Clock with GUI\\alarm.mp3")
+            playsound("alarm.mp3")
 
 Label(root, text="Alarm Clock with GUI", font=("Helvetica 20 bold"), fg="blue").pack(pady=10)
 Label(root, text="Set Time for Alarm", font=("Helvetica 15 bold"), fg="red").pack()
