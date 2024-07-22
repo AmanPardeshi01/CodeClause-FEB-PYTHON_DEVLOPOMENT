@@ -1,4 +1,4 @@
-import pyshorteners
+import pyshorteners 
 url = input("Enter your url:-")
 def shortener(url):
     s = pyshorteners.Shortener()
